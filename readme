@@ -14,3 +14,14 @@ ref:
 https://github.com/felixge/node-mysql/tree/master/test
 https://github.com/felixge/node-mysql/blob/master/Readme.md
 
+3) sample output
+
+[ubuntu@chicago::ip-10-167-6-127:~/myrepo/node-mysql]$./annie.sh 
+
+1. prep db
+node: no process found
+
+2. run test
+node test/run.js
+[0:00:49 0 80/80 100.0% node test/unit/protocol/test-SqlString.js] 
+
